@@ -31,7 +31,7 @@ li:last-child {
   margin-right: 0px;
 }
 .section {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   position: relative;
 }
 .section_one {
@@ -62,4 +62,15 @@ li:last-child {
   font-size: 16px;
   padding: 0px 0px 0px 30px;
   line-height: 1.2;
+}
+.section_three {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.section_block {
+  height: 290px;
+  width: 290px;
+  margin-right: 76px;
 }
