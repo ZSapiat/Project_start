@@ -2,8 +2,10 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background: #ffe2b0;
+  font-family: "Roboto", sans-serif;
 }
 .header_logo {
   display: flex;
@@ -12,8 +14,6 @@ body {
   margin-bottom: 20px;
 }
 
-.nav {
-}
 .nav_ul {
   display: flex;
   list-style-type: none;
@@ -29,4 +29,37 @@ body {
 }
 li:last-child {
   margin-right: 0px;
+}
+.section {
+  margin-bottom: 20px;
+  position: relative;
+}
+.section_one {
+  height: 600px;
+  width: 100vw;
+  background: url(../img/01-Картинка-фона.jpg) center no-repeat;
+}
+
+.section_two {
+  content: "";
+  position: absolute;
+  top: 349px;
+  left: 736px;
+  height: 190px;
+  width: 420px;
+  background-color: #ffe2b0;
+  z-index: 9;
+  opacity: 80%;
+  outline: 1px solid #3d1f15;
+  outline-offset: -10px;
+}
+.section_h1 {
+  padding: 17px 0px 9px 30px;
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+}
+.section_p {
+  font-size: 16px;
+  padding: 0px 0px 0px 30px;
+  line-height: 1.2;
 }
