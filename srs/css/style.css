@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -73,4 +74,43 @@ li:last-child {
   height: 290px;
   width: 290px;
   margin-right: 76px;
+}
+
+.section_fouryh1 {
+  font-size: 96px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.section_fourtext {
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+.section_fouryh2 {
+  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.colortext {
+  color: red;
+}
+
+.Coogle_maps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  flex-direction: column;
+}
+frame {
+  width: 80vw;
+  height: 60vh;
+  filter: invert(100%);
 }
